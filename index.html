@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div>
+        <h1 id="head">Weather</h1>
+        <div>
+          <input id="inp" type="text" placeholder="Location" onchange="weat()"/>
+          <button id="show-btn" onclick="weat()">Search</button> 
+        </div>
+        <div id="cont">
+            <h1 id="location"></h1>
+            <h3 id="temperature"></h3>
+            <h4 id="temp-min"></h4>
+            <h4 id="temp-max"></h4>
+            <h3 id="visi"></h3>
+            <h3 id="press"></h3>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

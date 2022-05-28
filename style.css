@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url('https://thumbs.dreamstime.com/b/cloud-rain-blue-background-clear-sky-season-cloudy-day-weather-forecast-concept-vector-illustration-194978636.jpg');
+    font-family: 'Open Sans', sans-serif;
+      margin-top: 150px;
+ }
+ #inp{
+     
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     background-color: transparent;
+     outline: none;
+     color: black;
+     border-color: black ;
+     font-size: 20px;
+     text-align: center;
+     
+ }
+ #show-btn{
+    
+     background-color: rgb(47, 96, 46);
+     
+ }
+ #cont{
+     
+ }
+ #head{
+     text-align: center;
+    position: absolute;
+    top: 10px;
+   
+ }
